@@ -20,3 +20,4 @@
 
 <span><%= link "Edit", to: Routes.expense_path(@conn, :edit, @expense) %></span>
 <span><%= link "Back", to: Routes.expense_path(@conn, :index) %></span>
+<span><%= link "New Expense", to: Routes.expense_path(@conn, :new) %></span>
