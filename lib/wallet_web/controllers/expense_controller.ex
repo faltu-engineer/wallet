@@ -28,6 +28,7 @@ defmodule WalletWeb.ExpenseController do
 
   def show(conn, %{"id" => id}) do
     expense = Expenses.get_expense!(id)
+    expense = Wallet.Repo.preload expense, :user
     render(conn, "show.html", expense: expense)
   end
 

@@ -51,8 +51,7 @@ defmodule Wallet.Expenses do
   """
   def create_expense(conn, attrs \\ %{}) do
     user = Pow.Plug.current_user(conn)
-    attrs = Map.put(attrs, "user_id", user.id)
-    %Expense{}
+    %Expense{user_id: user.id}
     |> Expense.changeset(attrs)
     |> Repo.insert()
   end
