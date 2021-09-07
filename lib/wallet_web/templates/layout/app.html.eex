@@ -33,8 +33,9 @@
             <% end %>
           </ul>
         </nav>
-        <a href="https://phoenixframework.org/" class="phx-logo">
-          <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Phoenix Framework Logo"/>
+        <a href="/" class="logo">
+          <h1> Wallet </h1>
+          <h4> Your personal money manager </h4>
         </a>
       </section>
     </header>
