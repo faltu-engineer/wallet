@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: [
     '../lib/**/*.ex',
@@ -6,9 +8,13 @@ module.exports = {
     '../lib/**/*.eex',
     './js/**/*.js'
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: true, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   variants: {
     extend: {},
@@ -17,5 +23,6 @@ module.exports = {
     require("postcss-import"),
     require("tailwindcss")("./tailwind.config.js"),
     require('autoprefixer'),
+    require('@tailwindcss/forms'),
   ],
 }
