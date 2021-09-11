@@ -20,3 +20,9 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Tailwind components to use
+https://tailwindui.com/documentation#requirements
+https://tailwindui.com/components/application-ui/feedback/empty-states#component-42312e49c9887a27078b43874d164f48
+https://tailwindui.com/components/application-ui/headings/card-headings#component-c8f5fb604fcc6cf6614aab0bfec6a3f2
+https://tailwindui.com/components/application-ui/data-display/stats#component-0d73a2494863902616f059ddcb5da2d5

@@ -11,10 +11,6 @@
     <strong>Amount:</strong>
     <%= @expense.amount %>
   </li>
-  <li>
-      <strong>User:</strong>
-      <%= @expense.user.email %>
-  </li>
 
 </ul>
 
