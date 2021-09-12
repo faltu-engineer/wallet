@@ -37,7 +37,7 @@
                         <ul class="mt-6 leading-10">
                             <li class="relative px-2 py-1 ">
                                 <a class="inline-flex items-center w-full text-sm font-semibold text-white transition-colors duration-150 cursor-pointer hover:text-green-500" 
-                                    href=" #">
+                                    href="/">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -56,7 +56,7 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
                                         </svg>
-                                        <span class="ml-4">ITEM</span>
+                                        <span class="ml-4">EXPENSES</span>
                                     </span>
                                     <svg xmlns="http://www.w3.org/2000/svg" x-show="!Open"
                                         class="ml-1  text-white w-4 h-4" fill="none" viewBox="0 0 24 24"
@@ -84,7 +84,7 @@
                                         aria-label="submenu">
 
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
-                                            <div class="px-1 hover:text-gray-800 hover:bg-gray-100 rounded-md">
+                                            <div class="px-1 rounded-md">
                                                 <div class="flex items-center">
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                         viewBox="0 0 24 24" stroke="currentColor">
@@ -92,9 +92,8 @@
                                                             stroke-width="2"
                                                             d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                                                     </svg>
-                                                    <a href="#"
-                                                        class="w-full ml-2  text-sm font-semibold text-white hover:text-gray-800">Item
-                                                        1</a>
+                                                    <a href="/expenses/new"
+                                                        class="w-full ml-2  text-sm font-semibold text-white">CREATE</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -134,7 +133,7 @@
                         <ul class="mt-6 leading-10">
                             <li class="relative px-2 py-1 ">
                                 <a class="inline-flex items-center w-full text-sm font-semibold text-white transition-colors duration-150 cursor-pointer hover:text-green-500"
-                                    href=" #">
+                                    href="/">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
                                         viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -153,7 +152,7 @@
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
                                         </svg>
-                                        <span class="ml-4">ITEM</span>
+                                        <span class="ml-4">EXPENSES</span>
                                     </span>
                                     <svg xmlns="http://www.w3.org/2000/svg" x-show="!Open"
                                         class="ml-1  text-white w-4 h-4" fill="none" viewBox="0 0 24 24"
@@ -181,7 +180,7 @@
                                         aria-label="submenu">
 
                                         <li class="px-2 py-1 text-white transition-colors duration-150">
-                                            <div class="px-1 hover:text-gray-800 hover:bg-gray-100 rounded-md">
+                                            <div class="px-1 rounded-md">
                                                 <div class="flex items-center">
                                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                         viewBox="0 0 24 24" stroke="currentColor">
@@ -189,9 +188,8 @@
                                                             stroke-width="2"
                                                             d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                                                     </svg>
-                                                    <a href="#"
-                                                        class="w-full ml-2  text-sm font-semibold text-white hover:text-gray-800">Item
-                                                        1</a>
+                                                    <a href="/expenses/new"
+                                                        class="w-full ml-2  text-sm font-semibold text-white"> CREATE</a>
                                                 </div>
                                             </div>
                                         </li>
@@ -324,13 +322,17 @@
                 </div>
             </header>
             <main class="">
-                <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-green-400">
-
+                <div class="grid mb-4 pb-10 px-8 mx-4 rounded-3xl bg-gray-100 border-4 border-green-400 min-h-screen">
+                    <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
+                    <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
+                    <div class="mt-2">
+                        <%= @inner_content %>
+                    </div>
                 </div>
             </main>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
     <script>
         function data() {
           
@@ -364,99 +366,6 @@
                
             }
         }
-    </script>
-    <script>
-        var chart = document.querySelector('#chartline')
-        var options = {
-            series: [{
-                name: 'TEAM A',
-                type: 'area',
-                data: [44, 55, 31, 47, 31, 43, 26, 41, 31, 47, 33]
-            }, {
-                name: 'TEAM B',
-                type: 'line',
-                data: [55, 69, 45, 61, 43, 54, 37, 52, 44, 61, 43]
-            }],
-            chart: {
-                height: 350,
-                type: 'line',
-                zoom: {
-                    enabled: false
-                }
-            },
-            stroke: {
-                curve: 'smooth'
-            },
-            fill: {
-                type: 'solid',
-                opacity: [0.35, 1],
-            },
-            labels: ['Dec 01', 'Dec 02', 'Dec 03', 'Dec 04', 'Dec 05', 'Dec 06', 'Dec 07', 'Dec 08', 'Dec 09 ',
-                'Dec 10', 'Dec 11'
-            ],
-            markers: {
-                size: 0
-            },
-            yaxis: [{
-                    title: {
-                        text: 'Series A',
-                    },
-                },
-                {
-                    opposite: true,
-                    title: {
-                        text: 'Series B',
-                    },
-                },
-            ],
-            tooltip: {
-                shared: true,
-                intersect: false,
-                y: {
-                    formatter: function(y) {
-                        if (typeof y !== "undefined") {
-                            return y.toFixed(0) + " points";
-                        }
-                        return y;
-                    }
-                }
-            }
-        };
-        var chart = new ApexCharts(chart, options);
-        chart.render();
-    </script>
-    <script>
-        var chart = document.querySelector('#chartpie')
-        var options = {
-            series: [44, 55, 67, 83],
-            chart: {
-                height: 350,
-                type: 'radialBar',
-            },
-            plotOptions: {
-                radialBar: {
-                    dataLabels: {
-                        name: {
-                            fontSize: '22px',
-                        },
-                        value: {
-                            fontSize: '16px',
-                        },
-                        total: {
-                            show: true,
-                            label: 'Total',
-                            formatter: function(w) {
-                                // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
-                                return 249
-                            }
-                        }
-                    }
-                }
-            },
-            labels: ['Apples', 'Oranges', 'Bananas', 'Berries'],
-        };
-        var chart = new ApexCharts(chart, options);
-        chart.render();
     </script>
 </body>
 
