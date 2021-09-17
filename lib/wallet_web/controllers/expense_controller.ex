@@ -5,7 +5,7 @@ defmodule WalletWeb.ExpenseController do
   alias Wallet.Expenses.Expense
 
   def index(conn, _params) do
-    expenses = Expenses.list_expenses()
+    expenses = Expenses.list_expenses(conn)
     render(conn, "index.html", expenses: expenses)
   end
 
