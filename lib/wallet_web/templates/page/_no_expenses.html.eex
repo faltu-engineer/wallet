@@ -1,0 +1,129 @@
+<div>
+  <h2 class="text-lg font-medium text-gray-900">
+    Expenses
+  </h2>
+  <p class="mt-1 text-sm text-gray-500">
+    You haven’t created any expense yet. Get started by selecting a type of expense. Rest Assured all this data is perfectly secured. We will never asks for your verification or something.
+  </p>
+  <ul role="list" class="mt-6 border-t border-b border-gray-200 py-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
+    <li class="flow-root">
+      <div class="relative -m-2 p-2 flex items-center space-x-4 rounded-xl hover:bg-gray-50 focus-within:ring-2 focus-within:ring-indigo-500">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-pink-500">
+          <!-- Heroicon name: outline/view-list -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="/expenses/new" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Create an Expense<span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Expense that you have made just now, or at a particular date.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 p-2 flex items-center space-x-4 rounded-xl hover:bg-gray-50 focus-within:ring-2 focus-within:ring-indigo-500">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-yellow-500">
+          <!-- Heroicon name: outline/calendar -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Create a Borrow<span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">You borrowed money from someone, save it here.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 p-2 flex items-center space-x-4 rounded-xl hover:bg-gray-50 focus-within:ring-2 focus-within:ring-indigo-500">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-green-500">
+          <!-- Heroicon name: outline/photograph -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Create a Money Lending<span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">You lend money to someone, track it here.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 p-2 flex items-center space-x-4 rounded-xl hover:bg-gray-50 focus-within:ring-2 focus-within:ring-indigo-500">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-blue-500">
+          <!-- Heroicon name: outline/view-boards -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Return of money lending<span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Someone returned money, that you have lended.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 p-2 flex items-center space-x-4 rounded-xl hover:bg-gray-50 focus-within:ring-2 focus-within:ring-indigo-500">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-indigo-500">
+          <!-- Heroicon name: outline/table -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Create an Investment<span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">You made an investment, it's good if you track it here also.</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="flow-root">
+      <div class="relative -m-2 p-2 flex items-center space-x-4 rounded-xl hover:bg-gray-50 focus-within:ring-2 focus-within:ring-indigo-500">
+        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-lg bg-purple-500">
+          <!-- Heroicon name: outline/clock -->
+          <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-sm font-medium text-gray-900">
+            <a href="#" class="focus:outline-none">
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              Create an Income Source<span aria-hidden="true"> &rarr;</span>
+            </a>
+          </h3>
+          <p class="mt-1 text-sm text-gray-500">Create all the entries of income source.</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>

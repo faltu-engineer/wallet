@@ -17,8 +17,38 @@ defmodule Wallet.Expenses do
       [%Expense{}, ...]
 
   """
-  def list_expenses do
-    Repo.all(Expense)
+
+  def user_expenses(user) when is_nil(user), do: []
+
+  def user_expenses(user) do
+    from(e in Expense, where: e.user_id == ^user.id, order_by: [desc: e.updated_at]) |> Repo.all
+  end
+
+  def list_expenses(conn) do
+    user = Pow.Plug.current_user(conn)
+    # query = from e in Expense,
+    #           where: e.user_id == ^user.id,
+    #           order_by: [desc: e.updated_at]
+    # Repo.all(query)
+    user_expenses(user)
+  end
+
+
+  defmacro to_char(field, format) do
+    quote do
+      fragment("to_char(?, ?)", unquote(field), unquote(format))
+    end
+  end
+
+  def query_amount_sum_over_months do
+    Expense
+    |> group_by([p], to_char(p.inserted_at, "Mon YYYY"))
+    |> order_by([p], desc: to_char(p.inserted_at, "Mon YYYY"))
+    |> select([p], { to_char(p.inserted_at, "Mon YYYY"), sum(p.amount)})
+  end
+
+  def this_month_spend do
+    Repo.all(query_amount_sum_over_months())
   end
 
   @doc """
