@@ -8,7 +8,7 @@ module.exports = {
     '../lib/**/*.eex',
     './js/**/*.js'
   ],
-  darkMode: true, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
@@ -21,7 +21,7 @@ module.exports = {
   },
   plugins: [
     require("postcss-import"),
-    require("tailwindcss")("./tailwind.config.js"),
+    require("tailwindcss"),
     require('autoprefixer'),
     require('@tailwindcss/forms'),
   ],
