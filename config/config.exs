@@ -32,4 +32,5 @@ import_config "#{Mix.env()}.exs"
 
 config :wallet, :pow,
   user: Wallet.Users.User,
-  repo: Wallet.Repo
+  repo: Wallet.Repo,
+  web_module: WalletWeb
